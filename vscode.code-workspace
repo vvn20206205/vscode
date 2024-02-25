@@ -13,15 +13,21 @@
 		"git.enableSmartCommit": true,
 		// Không hiện thông báo push git
 		"git.confirmSync": false,
-		// Không hiện thông báo
+		// Không hiện thông báo paste nhiều dòng terminal
 		"terminal.integrated.enableMultiLinePasteWarning": "never",
+		// 
+		// 
+		// 
+		// 
 		// Nhóm các folder
 		"explorer.compactFolders": false,
 		// 
-		"latex-workshop.message.error.show": false,
+		// "latex-workshop.message.error.show": false,
 		// Thư mục git
 		"git.openRepositoryInParentFolders": "always",
-		
+		// 
+		// 
+		// 
 		// 
 		// "http.proxy":"http://localhost:10809",
 	},
