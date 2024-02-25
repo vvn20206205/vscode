@@ -1,0 +1,9 @@
+{
+	"my_print": {
+		"prefix": "my_print",
+		"body": [
+			"print(\"🚀 ~ ${nghia}:\", ${nghia})"
+		],
+		"description": "my_print"
+	}
+}
