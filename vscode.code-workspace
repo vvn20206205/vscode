@@ -5,6 +5,9 @@
 		}
 	],
 	"settings": {
+		// Cố định 
+		// Cố định 
+		// Cố định 
 		// Tự động lưu file
 		"files.autoSave": "afterDelay",
 		// Dùng ctrl kéo cỡ chữ
@@ -15,21 +18,26 @@
 		"git.confirmSync": false,
 		// Không hiện thông báo paste nhiều dòng terminal
 		"terminal.integrated.enableMultiLinePasteWarning": "never",
-		// 
-		// 
-		// 
-		// 
+		// Có thể thay đổi ít
+		// Có thể thay đổi ít
+		// Có thể thay đổi ít
 		// Nhóm các folder
 		"explorer.compactFolders": false,
-		// 
 		// "latex-workshop.message.error.show": false,
+		// "workbench.iconTheme": "material-icon-theme",
 		// Thư mục git
 		"git.openRepositoryInParentFolders": "always",
-		// 
-		// 
-		// 
-		// 
+		// Có thể thay đổi nhiều
+		// Có thể thay đổi nhiều
+		// Có thể thay đổi nhiều
 		// "http.proxy":"http://localhost:10809",
+		"code-runner.executorMap": {
+		  "shellscript": " cd $dir && $fileName",
+		  "python": " cd $dir && python3 $fileName",
+		  // "typescript": " cd $dir && npm run format && exit 0"
+		  "typescript": " cd $dir && npm run format && NEST_DEBUG=true npm run start:dev "
+		  // "typescript": " cd $dir && npm run format && npm run test && npm run test:e2e ",
+		},
 	},
 	"extensions": {
 		"recommendations": [
