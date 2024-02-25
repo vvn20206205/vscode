@@ -17,7 +17,8 @@
 			"dracula-theme.theme-dracula",
 			"pkief.material-icon-theme",
 			"christian-kohler.path-intellisense",
-			"foxundermoon.shell-format"
+			// "foxundermoon.shell-format",
+			"esbenp.prettier-vscode"
 		]
 	}
 }
