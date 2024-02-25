@@ -5,17 +5,25 @@
 		}
 	],
 	"settings": {
+		// Tự động lưu file
 		"files.autoSave": "afterDelay",
+		// Dùng ctrl kéo cỡ chữ
 		"editor.mouseWheelZoom": true,
+		// Không hiện thông báo commit git
 		"git.enableSmartCommit": true,
+		// Không hiện thông báo push git
 		"git.confirmSync": false,
-		
+		// Không hiện thông báo
+		"terminal.integrated.enableMultiLinePasteWarning": "never",
+		// Nhóm các folder
 		"explorer.compactFolders": false,
+		// 
 		"latex-workshop.message.error.show": false,
+		// Thư mục git
 		"git.openRepositoryInParentFolders": "always",
 		
+		// 
 		// "http.proxy":"http://localhost:10809",
-
 	},
 	"extensions": {
 		"recommendations": [
