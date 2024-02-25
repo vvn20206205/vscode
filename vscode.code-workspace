@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"michaelcurrin.auto-commit-msg",
+			"formulahendry.code-runner",
+			"aaron-bond.better-comments",
+			"dracula-theme.theme-dracula",
+			"pkief.material-icon-theme",
+			"christian-kohler.path-intellisense"
+		]
+	}
+}
