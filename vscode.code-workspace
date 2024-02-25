@@ -16,7 +16,8 @@
 			"aaron-bond.better-comments",
 			"dracula-theme.theme-dracula",
 			"pkief.material-icon-theme",
-			"christian-kohler.path-intellisense"
+			"christian-kohler.path-intellisense",
+			"foxundermoon.shell-format"
 		]
 	}
 }
