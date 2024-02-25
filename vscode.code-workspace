@@ -5,9 +5,11 @@
 		}
 	],
 	"settings": {
+		// "http.proxy":"http://localhost:10809",
 		"files.autoSave": "afterDelay",
 		"editor.mouseWheelZoom": true,
 		"explorer.compactFolders": false,
+		"latex-workshop.message.error.show": false
 	},
 	"extensions": {
 		"recommendations": [
