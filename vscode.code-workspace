@@ -4,7 +4,11 @@
 			"path": "."
 		}
 	],
-	"settings": {},
+	"settings": {
+		"files.autoSave": "afterDelay",
+		"editor.mouseWheelZoom": true,
+		"explorer.compactFolders": false,
+	},
 	"extensions": {
 		"recommendations": [
 			"michaelcurrin.auto-commit-msg",
