@@ -5,11 +5,17 @@
 		}
 	],
 	"settings": {
-		// "http.proxy":"http://localhost:10809",
 		"files.autoSave": "afterDelay",
 		"editor.mouseWheelZoom": true,
+		"git.enableSmartCommit": true,
+		"git.confirmSync": false,
+		
 		"explorer.compactFolders": false,
-		"latex-workshop.message.error.show": false
+		"latex-workshop.message.error.show": false,
+		"git.openRepositoryInParentFolders": "always",
+		
+		// "http.proxy":"http://localhost:10809",
+
 	},
 	"extensions": {
 		"recommendations": [
