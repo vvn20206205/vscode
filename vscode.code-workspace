@@ -74,64 +74,7 @@
     }
   },
   "extensions": {
-    "recommendations": [
-      "aaron-bond.better-comments",
-      "christian-kohler.path-intellisense",
-      "cweijan.vscode-autohotkey-plus",
-      "cweijan.vscode-mysql-client2",
-      "esbenp.prettier-vscode",
-      "formulahendry.code-runner",
-      "michaelcurrin.auto-commit-msg",
-
-
-
-
-      // "dracula-theme.theme-dracula",
-      // "pkief.material-icon-theme",
-      // "foxundermoon.shell-format",
-
-      // "xabikos.ReactSnippets",
-      // "ms-python.python",
-      // "mengrbatinov.json-snippet-to-md-documentation",
-      // "blackboxapp.blackbox",
-      // "ms-python.autopep8",
-      // "ritwickdey.LiveServer",
-      // "ritwickdey.liveserver",
-      // "steoates.autoimport",
-      // "kamikillerto.vscode-colorize",
-      // "streetsidesoftware.code-spell-checker",
-      // "ms-vscode.cpptools-themes",
-      // "ms-vscode.cpptools-extension-pack",
-      // "ms-python.vscode-pylance",
-      // "AMiner.codegeex",
-      // "ChakrounAnas.turbo-console-log",
-      // "mikestead.dotenv",
-      // "humao.rest-client",
-      // "aminer.codegeex",
-      // "ms-vscode.cpptools",
-      // "James-Yu.latex-workshop",
-      // "ms-vscode-remote.remote-wsl",
-      // "ms-azuretools.vscode-docker",
-      // "EditorConfig.EditorConfig",
-      // "archsense.architecture-view-nestjs",
-      // "dbaeumer.vscode-eslint",
-      // "formulahendry.auto-rename-tag",
-      // "james-yu.latex-workshop",
-      // "Blackboxapp.blackbox",
-      // "xabikos.reactsnippets",
-      // "twxs.cmake",
-      // "ms-kubernetes-tools.vscode-kubernetes-tools",
-      // "Codeium.codeium",
-      // "MEngRBatinov.json-snippet-to-md-documentation",
-      // "hediet.vscode-drawio",
-      // "ms-vscode-remote.remote-containers",
-      // "almenon.arepl",
-      // "ms-vscode.cmake-tools",
-      // "redhat.vscode-yaml",
-      // "austenc.tailwind-docs",
-      // "alefragnani.bookmarks",
-      // "editorconfig.editorconfig"
-    ]
+    "recommendations": []
   }
 }
 
