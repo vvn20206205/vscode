@@ -46,11 +46,17 @@
 			"michaelcurrin.auto-commit-msg",
 			"formulahendry.code-runner",
 			"aaron-bond.better-comments",
-			"dracula-theme.theme-dracula",
-			"pkief.material-icon-theme",
-			"christian-kohler.path-intellisense",
-			// "foxundermoon.shell-format",
 			"esbenp.prettier-vscode",
+			"christian-kohler.path-intellisense",
+			
+			"cweijan.vscode-autohotkey-plus",
+
+
+
+
+			// "dracula-theme.theme-dracula",
+			// "pkief.material-icon-theme",
+			// "foxundermoon.shell-format",
 
  
 			// "xabikos.ReactSnippets",
