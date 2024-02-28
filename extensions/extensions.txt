@@ -1,4 +1,5 @@
 aaron-bond.better-comments
+almenon.arepl
 christian-kohler.path-intellisense
 cweijan.dbclient-jdbc
 cweijan.vscode-autohotkey-plus
