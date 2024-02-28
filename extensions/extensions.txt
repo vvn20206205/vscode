@@ -5,6 +5,7 @@ cweijan.vscode-autohotkey-plus
 cweijan.vscode-mysql-client2
 esbenp.prettier-vscode
 formulahendry.code-runner
+foxundermoon.shell-format
 michaelcurrin.auto-commit-msg
 ms-python.debugpy
 ms-python.python
