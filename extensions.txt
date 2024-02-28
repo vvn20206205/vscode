@@ -1,0 +1,12 @@
+aaron-bond.better-comments
+christian-kohler.path-intellisense
+cweijan.dbclient-jdbc
+cweijan.vscode-autohotkey-plus
+cweijan.vscode-mysql-client2
+esbenp.prettier-vscode
+formulahendry.code-runner
+michaelcurrin.auto-commit-msg
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-vscode-remote.remote-wsl

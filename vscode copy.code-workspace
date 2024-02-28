@@ -75,16 +75,15 @@
   },
   "extensions": {
     "recommendations": [
-      "aaron-bond.better-comments",
-      "christian-kohler.path-intellisense",
-      "cweijan.vscode-autohotkey-plus",
-      "cweijan.vscode-mysql-client2",
-      "esbenp.prettier-vscode",
-      "formulahendry.code-runner",
       "michaelcurrin.auto-commit-msg",
+      "formulahendry.code-runner",
+      "aaron-bond.better-comments",
+      "esbenp.prettier-vscode",
+      "christian-kohler.path-intellisense",
 
+      "cweijan.vscode-autohotkey-plus",
 
-
+      "cweijan.vscode-mysql-client2"
 
       // "dracula-theme.theme-dracula",
       // "pkief.material-icon-theme",
