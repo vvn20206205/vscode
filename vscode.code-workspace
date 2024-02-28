@@ -20,6 +20,12 @@
 		"terminal.integrated.enableMultiLinePasteWarning": "never",
 		// Không hiện thông báo xóa
 		"explorer.confirmDelete": false,
+		    // !extensions
+    // Chạy mã trong terminal
+    "code-runner.runInTerminal": true,
+    // Đường dẫn là "/"
+    "code-runner.terminalRoot": "/",
+
 		// Có thể thay đổi ít
 		// Có thể thay đổi ít
 		// Có thể thay đổi ít
@@ -35,7 +41,7 @@
 		// "http.proxy":"http://localhost:10809",
 		"code-runner.executorMap": {
 		  "shellscript": " cd $dir && $fileName",
-		  "python": " cd $dir && python3 $fileName",
+		  "python": " cd $dir && python $fileName",
 		  // "typescript": " cd $dir && npm run format && exit 0"
 		  "typescript": " cd $dir && npm run format && NEST_DEBUG=true npm run start:dev "
 		  // "typescript": " cd $dir && npm run format && npm run test && npm run test:e2e ",
@@ -158,10 +164,6 @@
 //     "explorer.confirmDelete": false,
 //     // Sử dụng mặc định cho terminal trên Windows
 //     "terminal.integrated.defaultProfile.windows": "Git Bash",
-//     // !extensions
-//     // Chạy mã trong terminal
-//     "code-runner.runInTerminal": true,
-//     "code-runner.terminalRoot": "/",
 //     // Đổi chủ đề màu sắc sang Dracula
 //     "workbench.colorTheme": "Dracula",
 //     // Chọn chủ đề biểu tượng là "material-icon-theme"
@@ -222,10 +224,7 @@
 //     // Không hiển thị xác nhận xóa
 //     "explorer.confirmDelete": false,
 //     // Sử dụng mặc định cho terminal trên Windows
-//     "terminal.integrated.defaultProfile.windows": "Command Prompt",
-//     // !extensions
-//     // Chạy mã trong terminal
-//     "code-runner.runInTerminal": true,
+//     "terminal.integrated.defaultProfile.windows": "Command Prompt", 
 //     // Đổi chủ đề màu sắc sang Dracula
 //     "workbench.colorTheme": "Dracula",
 //     // Chọn chủ đề biểu tượng là "material-icon-theme"
@@ -271,10 +270,7 @@
 //     "terminal.integrated.defaultProfile.windows": "Command Prompt",
 //     // ! ==================================================
 //     // Sử dụng mặc định cho terminal trên Linux
-//     "terminal.integrated.defaultProfile.linux": "bash",
-//     // !extensions
-//     // Chạy mã trong terminal
-//     "code-runner.runInTerminal": true,
+//     "terminal.integrated.defaultProfile.linux": "bash", 
 //     // Đổi chủ đề màu sắc sang Dracula
 //     "workbench.colorTheme": "Dracula",
 //     // Chọn chủ đề biểu tượng là "material-icon-theme"
@@ -353,11 +349,6 @@
 //     "git.enableSmartCommit": true,
 //     "git.confirmSync": false,
 //     "git.openRepositoryInParentFolders": "always",
-//     // !extensions
-//     // Chạy mã trong terminal
-//     "code-runner.runInTerminal": true,
-//     // Đường dẫn là "/"
-//     "code-runner.terminalRoot": "/",
 //     // Đổi chủ đề màu sắc sang Dracula
 //     "workbench.colorTheme": "Dracula",
 //     // Chọn chủ đề biểu tượng là "material-icon-theme"
