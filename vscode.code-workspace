@@ -18,6 +18,8 @@
 		"git.confirmSync": false,
 		// Không hiện thông báo paste nhiều dòng terminal
 		"terminal.integrated.enableMultiLinePasteWarning": "never",
+		// Không hiện thông báo xóa
+		"explorer.confirmDelete": false,
 		// Có thể thay đổi ít
 		// Có thể thay đổi ít
 		// Có thể thay đổi ít
