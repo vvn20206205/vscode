@@ -20,7 +20,10 @@
 		"terminal.integrated.enableMultiLinePasteWarning": "never",
 		// Không hiện thông báo xóa
 		"explorer.confirmDelete": false,
-		    // !extensions
+		// Không hiện thông báo sao chép
+		"explorer.confirmPasteNative": false,
+		// Không hiện thông báo di chuyển
+		"explorer.confirmDragAndDrop": false,
     // Chạy mã trong terminal
     "code-runner.runInTerminal": true,
     // Đường dẫn là "/"
