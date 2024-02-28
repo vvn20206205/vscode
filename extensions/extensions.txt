@@ -7,6 +7,7 @@ cweijan.vscode-mysql-client2
 esbenp.prettier-vscode
 formulahendry.code-runner
 foxundermoon.shell-format
+james-yu.latex-workshop
 michaelcurrin.auto-commit-msg
 ms-azuretools.vscode-docker
 ms-python.autopep8
