@@ -71,13 +71,7 @@
       // "typescript": " cd $dir && npm run format && exit 0"
       "typescript": " cd $dir && npm run format && NEST_DEBUG=true npm run start:dev "
       // "typescript": " cd $dir && npm run format && npm run test && npm run test:e2e ",
-    }
-  },
-  "extensions": {
-    "recommendations": []
-  }
-}
-
+      
 //   "settings": {
 //     "code-runner.executorMap": {
 //       // ok
@@ -94,6 +88,45 @@
 //       // ok
 //       "markdown": " cd $dir && if [ $fileName = README.md ]; then ( cd workspace/others/push && python push.py ); else ( echo NO PUSH GIT); fi;"
 //     },
+//     "code-runner.executorMap": {
+//       // ok
+//       "python": " cd $dir && python $fileName",
+//       //
+//       // ok
+//       "javascript": " cd $dir && node $fileName",
+//       // ok
+//       "typescript": " cd $dir && npm run start:dev",
+//       //
+//       // ok
+//       "yaml": " cd $dir && if $fileName == skaffold.yaml ( skaffold dev ) else ( kubectl apply -f $fileName) ",
+//       //
+//       // ok
+//       "markdown": " cd $dir && if $fileName == README.md ( cd workspace/others/push && python push.py) else (echo NO PUSH GIT) "
+//     },
+//     "code-runner.executorMap": {
+//       "python": " cd $dir && python $fileName",
+//       // "python": " cd $dir && python3 $fileName",
+//       "javascript": " cd $dir && node $fileName",
+//       // "typescript": " cd $dir && npm run start:dev",
+//       // "typescript": " cd $dir && start Chrome http://localhost:3000 && npm run start:dev",
+//       "typescript": " cd $dir && start Chrome http://localhost:3000/apidocs && npm run start:dev",
+//       //
+//       "yaml": " if [ $fileName = skaffold.yaml ]; then ( skaffold dev ); else ( kubectl apply -f $fileName); fi;",
+//       //
+//       "markdown": " if [ $fileName = README.md ]; then ( cd others/push && python push.py ); else ( echo NO PUSH GIT); fi;",
+//       //
+//       "bat": " cd $dir && $fileName",
+//       // "bat": " cd $dir && cmd $fileName",
+//       // "shellscript": " cd $dir && bash $fileName"
+//       "shellscript": " bash $fileName"
+//     },
+    }
+  },
+  "extensions": {
+    "recommendations": []
+  }
+}
+
 //     "better-comments.tags": [
 //       {
 //         "tag": "",
@@ -136,21 +169,6 @@
 // }
 
 //  {
-//     "code-runner.executorMap": {
-//       // ok
-//       "python": " cd $dir && python $fileName",
-//       //
-//       // ok
-//       "javascript": " cd $dir && node $fileName",
-//       // ok
-//       "typescript": " cd $dir && npm run start:dev",
-//       //
-//       // ok
-//       "yaml": " cd $dir && if $fileName == skaffold.yaml ( skaffold dev ) else ( kubectl apply -f $fileName) ",
-//       //
-//       // ok
-//       "markdown": " cd $dir && if $fileName == README.md ( cd workspace/others/push && python push.py) else (echo NO PUSH GIT) "
-//     },
 //     "better-comments.tags": [
 //       {
 //         "tag": "",
@@ -192,23 +210,6 @@
 //   }
 // }
 
-//     "code-runner.executorMap": {
-//       "python": " cd $dir && python $fileName",
-//       // "python": " cd $dir && python3 $fileName",
-//       "javascript": " cd $dir && node $fileName",
-//       // "typescript": " cd $dir && npm run start:dev",
-//       // "typescript": " cd $dir && start Chrome http://localhost:3000 && npm run start:dev",
-//       "typescript": " cd $dir && start Chrome http://localhost:3000/apidocs && npm run start:dev",
-//       //
-//       "yaml": " if [ $fileName = skaffold.yaml ]; then ( skaffold dev ); else ( kubectl apply -f $fileName); fi;",
-//       //
-//       "markdown": " if [ $fileName = README.md ]; then ( cd others/push && python push.py ); else ( echo NO PUSH GIT); fi;",
-//       //
-//       "bat": " cd $dir && $fileName",
-//       // "bat": " cd $dir && cmd $fileName",
-//       // "shellscript": " cd $dir && bash $fileName"
-//       "shellscript": " bash $fileName"
-//     },
 //     // Tự động lưu file
 //     "files.autoSave": "afterDelay",
 //     // Cho phép phóng to thu nhỏ
