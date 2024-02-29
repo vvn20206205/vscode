@@ -7,6 +7,7 @@ cweijan.vscode-mysql-client2
 esbenp.prettier-vscode
 formulahendry.code-runner
 foxundermoon.shell-format
+grapecity.gc-excelviewer
 james-yu.latex-workshop
 michaelcurrin.auto-commit-msg
 ms-azuretools.vscode-docker
@@ -15,3 +16,4 @@ ms-python.debugpy
 ms-python.python
 ms-python.vscode-pylance
 ms-vscode-remote.remote-wsl
+pomdtr.excalidraw-editor
