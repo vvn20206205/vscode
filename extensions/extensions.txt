@@ -9,6 +9,7 @@ formulahendry.code-runner
 foxundermoon.shell-format
 grapecity.gc-excelviewer
 james-yu.latex-workshop
+mathiassoeholm.markdown-link-updater
 michaelcurrin.auto-commit-msg
 ms-azuretools.vscode-docker
 ms-python.autopep8
