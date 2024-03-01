@@ -65,8 +65,16 @@
     //! Có thể thay đổi nhiều
     //! Có thể thay đổi nhiều
     // "http.proxy":"http://localhost:10809",
+    //
     // "latex-workshop.latex.autoBuild.run": "onFileChange",
     "latex-workshop.latex.autoBuild.run": "never",
+    //
+    "latex-workshop.latex.autoClean.run": "onSucceeded",
+    // "latex-workshop.synctex.afterBuild.enabled": false,
+    "workbench.editorAssociations": {
+      "*.pdf": "latex-workshop-pdf-hook"
+    },
+
     "code-runner.executorMap": {
       // "bat": " cd $dir && $fileName",
       // "bat": " cd $dir && cmd $fileName",
