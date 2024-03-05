@@ -75,12 +75,12 @@
     //
     // "http.proxy":"http://localhost:10809",
     //
-    //   // "cSpell.enabled": true,
-    //   "cSpell.enabled": false,
-    //   //
-    //   "latex-workshop.latex.autoBuild.run": "onFileChange",
-    //   // "latex-workshop.latex.autoBuild.run": "never",
-    //   //
+    // "cSpell.enabled": true,
+    "cSpell.enabled": false,
+    //
+    "latex-workshop.latex.autoBuild.run": "onFileChange",
+    // "latex-workshop.latex.autoBuild.run": "never",
+    //
     //   // hiển thị
     //   // hiển thị
     //   // hiển thị
@@ -132,32 +132,53 @@
       // "markdown": " cd $dir && if $fileName == README.md ( cd workspace/others/push && python push.py) else (echo NO PUSH GIT) "
       // "markdown": " if [ $fileName = README.md ]; then ( cd others/push && python push.py ); else ( echo NO PUSH GIT); fi;",
     }
+
+    // "better-comments.tags": [
+    // {
+    // "tag": "",
+    // "color": "#FF2D00",
+    // "strikethrough": false,
+    // "underline": false,
+    // "backgroundColor": "transparent",
+    // "bold": false,
+    // "italic": false
+    // },
+    // {
+    // "tag": "//",
+    // "color": "#3498DB",
+    // "strikethrough": false,
+    // "underline": false,
+    // "backgroundColor": "transparent",
+    // "bold": false,
+    // "italic": false
+    // }
+    // ],
+    // "better-comments.tags": [
+    // {
+    // "tag": "",
+    // "color": "#FF2D00",
+    // "strikethrough": false,
+    // "underline": false,
+    // "backgroundColor": "transparent",
+    // "bold": false,
+    // "italic": false
+    // },
+    // {
+    // "tag": "//",
+    // "color": "#3498DB",
+    // "strikethrough": false,
+    // "underline": false,
+    // "backgroundColor": "transparent",
+    // "bold": false,
+    // "italic": false
+    // }
+    // ],
   },
   "extensions": {
     "recommendations": []
   }
 }
 
-// "better-comments.tags": [
-// {
-// "tag": "",
-// "color": "#FF2D00",
-// "strikethrough": false,
-// "underline": false,
-// "backgroundColor": "transparent",
-// "bold": false,
-// "italic": false
-// },
-// {
-// "tag": "//",
-// "color": "#3498DB",
-// "strikethrough": false,
-// "underline": false,
-// "backgroundColor": "transparent",
-// "bold": false,
-// "italic": false
-// }
-// ],
 // // Tự động lưu file
 // "files.autoSave": "afterDelay",
 // // Cho phép phóng to thu nhỏ
@@ -180,26 +201,6 @@
 // }
 
 // {
-// "better-comments.tags": [
-// {
-// "tag": "",
-// "color": "#FF2D00",
-// "strikethrough": false,
-// "underline": false,
-// "backgroundColor": "transparent",
-// "bold": false,
-// "italic": false
-// },
-// {
-// "tag": "//",
-// "color": "#3498DB",
-// "strikethrough": false,
-// "underline": false,
-// "backgroundColor": "transparent",
-// "bold": false,
-// "italic": false
-// }
-// ],
 // // Tự động lưu file
 // "files.autoSave": "afterDelay",
 // // Cho phép phóng to thu nhỏ
