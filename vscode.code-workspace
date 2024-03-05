@@ -120,7 +120,7 @@
       // "markdown": " cd $dir && if [ $fileName = README.md ]; then ( cd workspace/others/push && python push.py ); else ( echo NO PUSH GIT); fi;"
       // "markdown": " cd $dir && if $fileName == README.md ( cd workspace/others/push && python push.py) else (echo NO PUSH GIT) "
       // "markdown": " if [ $fileName = README.md ]; then ( cd others/push && python push.py ); else ( echo NO PUSH GIT); fi;",
-    },
+    }
   },
   "extensions": {
     "recommendations": []
