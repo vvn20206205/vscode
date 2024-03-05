@@ -5,7 +5,7 @@ import json5
 
 
 def read_json_with_comments():
-    with open("../vscode.code-workspace", 'r', encoding="utf-8") as file:
+    with open("../../vscode.code-workspace", 'r', encoding="utf-8") as file:
         json_with_comments = file.read()
         json_data = json5.loads(json_with_comments)
     return json_data
