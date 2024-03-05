@@ -101,10 +101,10 @@
     //   // hiển thị
     //   // hiển thị
     //   // hiển thị
-    //   "workbench.editorAssociations": {
-    //     "*.pdf": "latex-workshop-pdf-hook"
-    //   },
-    //   "latex-workshop.latex.autoClean.run": "onSucceeded",
+    "workbench.editorAssociations": {
+      "*.pdf": "latex-workshop-pdf-hook"
+    },
+    "latex-workshop.latex.autoClean.run": "onSucceeded",
 
     "code-runner.executorMap": {
       // "bat": " cd $dir && $fileName",
@@ -189,102 +189,13 @@
         "backgroundColor": "transparent",
         "bold": false,
         "italic": false
-      },
-
-      // ============================================
-
-
-
-
-
-
-
-
-      // ?
-      {
-        "tag": "?",
-        "color": "#0000ff",
-        "strikethrough": false,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": false,
-        "italic": true
-      },
-      // x
-      {
-        "tag": "x",
-        "color": "#3498DB",
-        "strikethrough": false,
-        "underline": false,
-        "backgroundColor": "transparent",
-        "bold": false,
-        "italic": false
-      },
-
-      
-    // {
-    // "tag": "",
-    // "color": "#FF2D00",
-    // "strikethrough": false,
-    // "underline": false,
-    // "backgroundColor": "transparent",
-    // "bold": false,
-    // "italic": false
-    // },
-    // {
-    // "tag": "//",
-    // "color": "#3498DB",
-    // "strikethrough": false,
-    // "underline": false,
-    // "backgroundColor": "transparent",
-    // "bold": false,
-    // "italic": false
-    // }
-    // ],
-    // "better-comments.tags": [
-    // {
-    // "tag": "",
-    // "color": "#FF2D00",
-    // "strikethrough": false,
-    // "underline": false,
-    // "backgroundColor": "transparent",
-    // "bold": false,
-    // "italic": false
-    // },
-    // {
-    // "tag": "//",
-    // "color": "#3498DB",
-    // "strikethrough": false,
-    // "underline": false,
-    // "backgroundColor": "transparent",
-    // "bold": false,
-    // "italic": false
-    // }
-    // ],
-
-
+      }
     ]
   },
   "extensions": {
     "recommendations": []
   }
 }
- 
-// // Sao chép nội dung terminal
-// "terminal.integrated.copyOnSelection": true,
-// // Bật xóa file vào thùng rác
-// "files.enableTrash": true,
-// // Không hiển thị xác nhận xóa
-// "explorer.confirmDelete": false,
-// // Đổi chủ đề màu sắc sang Dracula
-// "workbench.colorTheme": "Dracula",
-// // Chọn chủ đề biểu tượng là "material-icon-theme"
-// "workbench.iconTheme": "material-icon-theme",
-// // Chọn gói biểu đồ hiện tại là "nest"
-// "material-icon-theme.activeIconPack": "nest"
-// }
-// } 
-
 
 // // Sao chép nội dung terminal
 // "terminal.integrated.copyOnSelection": true,
@@ -300,7 +211,22 @@
 // "material-icon-theme.activeIconPack": "nest"
 // }
 // }
- 
+
+// // Sao chép nội dung terminal
+// "terminal.integrated.copyOnSelection": true,
+// // Bật xóa file vào thùng rác
+// "files.enableTrash": true,
+// // Không hiển thị xác nhận xóa
+// "explorer.confirmDelete": false,
+// // Đổi chủ đề màu sắc sang Dracula
+// "workbench.colorTheme": "Dracula",
+// // Chọn chủ đề biểu tượng là "material-icon-theme"
+// "workbench.iconTheme": "material-icon-theme",
+// // Chọn gói biểu đồ hiện tại là "nest"
+// "material-icon-theme.activeIconPack": "nest"
+// }
+// }
+
 // // Sao chép nội dung terminal
 // "terminal.integrated.copyOnSelection": true,
 // // Bật xóa file vào thùng rác
@@ -316,8 +242,6 @@
 // "material-icon-theme.activeIconPack": "nest"
 // }
 // }
- 
-
 
 // ]
 // },
