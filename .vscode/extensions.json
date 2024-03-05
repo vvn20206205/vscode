@@ -20,8 +20,6 @@
         "ms-python.vscode-pylance",
         "ms-vscode-remote.remote-wsl",
         "pomdtr.excalidraw-editor",
-        "streetsidesoftware.code-spell-checker",
-"formulahendry.auto-rename-tag"
-
+        "streetsidesoftware.code-spell-checker"
     ]
 }

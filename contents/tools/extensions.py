@@ -15,7 +15,7 @@ content = {
     "recommendations": extensions
 }
 
-with open("../.vscode/extensions.json", "w") as json_file:
+with open("../../.vscode/extensions.json", "w") as json_file:
     json.dump(content, json_file, indent=4)
 
 
