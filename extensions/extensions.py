@@ -1,6 +1,7 @@
 import subprocess
 
-command = "code --list-extensions > extensions.txt"
+command = "code --list-extensions > ../.vscode/extensions.txt"
+# command = "code --list-extensions > extensions.txt"
 
 subprocess.run(command, shell=True, check=True)
 
