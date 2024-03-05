@@ -11,7 +11,15 @@ def read_json_with_comments():
 
 
 content = read_json_with_comments()
-print(content)
+# print(content)
+
+
+
+
+
+ 
+
 
 with open("../.vscode/aaaaaa.json", "w") as json_file:
-    json.dump(content, json_file, indent=4)
+# with open("../.vscode/aaaaaa.json", "w") as json_file:
+    json.dump(content["settings"], json_file, indent=4)
