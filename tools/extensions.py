@@ -1,11 +1,25 @@
-# # import subprocess
+import json
+import subprocess
 
-# # command = "code --list-extensions > ../.vscode/extensions.txt"
-# # # command = "code --list-extensions > extensions.txt"
+command = "code --list-extensions"
 
-# # subprocess.run(command, shell=True, check=True)
+extensions = subprocess.run(
+    command,
+    shell=True,
+    check=True,
+    stdout=subprocess.PIPE,
+    text=True
+).stdout.splitlines()
 
-# # # 
+content = {
+    "recommendations": extensions
+}
+
+with open("../.vscode/extensions.json", "w") as json_file:
+    json.dump(content, json_file, indent=4)
+
+
+# # #
 # # # "formulahendry.auto-rename-tag"
 
 # # # "dracula-theme.theme-dracula"
@@ -43,37 +57,3 @@
 # # # "austenc.tailwind-docs"
 # # # "alefragnani.bookmarks"
 # # # "editorconfig.editorconfig"
-# import subprocess
-
-# command = "code --list-extensions"
-    
-# extensions = subprocess.run(command, shell=True, check=True, stdout=subprocess.PIPE, text=True).stdout.splitlines()
-
-# content = {
-#     "recommendations": extensions
-# }
-    
-# # sửa '' trong content thành ""
-# content=content.
-# print("🚀 Giá trị của content:", content)
-# # with open('../.vscode/extensions.json', 'w') as file:
-# #     file.write(str(content))
-import subprocess
-import json
-
-# Define the command to list extensions
-command = "code --list-extensions"
-
-# Run the command and capture the output
-extensions = subprocess.run(command, shell=True, check=True, stdout=subprocess.PIPE, text=True).stdout.splitlines()
-
-# Create content dictionary
-content = {
-    "recommendations": extensions
-}
-
-# Write the content to a JSON file
-with open("recommended_extensions.json", "w") as json_file:
-    json.dump(content, json_file, indent=4)
-
-print("Recommended extensions saved to recommended_extensions.json")
