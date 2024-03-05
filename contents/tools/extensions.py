@@ -20,6 +20,37 @@ with open("../../.vscode/extensions.json", "w") as json_file:
     json.dump(content, json_file, indent=4)
 
 
+
+#@ "formulahendry.code-runner",
+#@ "dracula-theme.theme-dracula",
+#@ "aaron-bond.better-comments",
+#@ "pkief.material-icon-theme",
+#@ "christian-kohler.path-intellisense",
+#@ "steoates.autoimport",
+#@ "esbenp.prettier-vscode",
+#@ "mechatroner.rainbow-csv",
+#@ "mathiassoeholm.markdown-link-updater",
+
+#@ "almenon.arepl",
+#@ "ms-python.python",
+#@ "ms-python.vscode-pylance",
+#@ "ms-python.autopep8",
+#@ "fedricknishant.turbo-python-print",
+
+#@ "hediet.vscode-drawio",
+#@ "James-Yu.latex-workshop",
+
+#@ "chakrounanas.turbo-console-log",
+#@ "mikestead.dotenv",
+#@ "archsense.architecture-view-nestjs",
+
+#@@ "foxundermoon.shell-format",
+#@@ "redhat.vscode-yaml",
+#@@ "editorconfig.editorconfig",
+#@@ "ms-vscode-remote.remote-wsl",
+#@@ "ms-azuretools.vscode-docker",
+#@@ "ms-kubernetes-tools.vscode-kubernetes-tools",
+#@@ "ms-vscode-remote.remote-containers",
 #
 # "formulahendry.auto-rename-tag"
 
