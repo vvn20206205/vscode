@@ -22,7 +22,6 @@ code --list-extensions >extensions/extensions.txt
 # "ritwickdey.liveserver"
 # "steoates.autoimport"
 # "kamikillerto.vscode-colorize"
-# "streetsidesoftware.code-spell-checker"
 # "ms-vscode.cpptools-themes"
 # "ms-vscode.cpptools-extension-pack"
 # "AMiner.codegeex"

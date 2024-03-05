@@ -18,3 +18,4 @@ ms-python.python
 ms-python.vscode-pylance
 ms-vscode-remote.remote-wsl
 pomdtr.excalidraw-editor
+streetsidesoftware.code-spell-checker
