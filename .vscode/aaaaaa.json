@@ -1,0 +1,47 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "contents"
+        }
+    ],
+    "extensions": {
+        "recommendations": []
+    },
+    "settings": {
+        "files.autoSave": "afterDelay",
+        "editor.mouseWheelZoom": true,
+        "git.enableSmartCommit": true,
+        "git.confirmSync": false,
+        "terminal.integrated.enableMultiLinePasteWarning": "never",
+        "explorer.confirmDelete": false,
+        "explorer.confirmPasteNative": false,
+        "explorer.confirmDragAndDrop": false,
+        "code-runner.runInTerminal": true,
+        "code-runner.terminalRoot": "/",
+        "terminal.integrated.defaultProfile.windows": "Git Bash",
+        "[jsonc]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[markdown]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[python]": {
+            "editor.defaultFormatter": "ms-python.autopep8"
+        },
+        "[json]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[html]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[typescript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+    }
+}

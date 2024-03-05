@@ -1,14 +1,17 @@
- 
-
-# with open("../../.vscode/extensions.json", "w") as json_file:
-
+# pip install json5
+import json5
 import json
 
-def read_vscode_workspace(file_path):
-    with open(file_path, 'r') as file:
-        data = json.load(file)
-    return data
 
-file_path = r"C:\Users\vvn20206205\Desktop\vscode\vscode.code-workspace"
-workspace_data = read_vscode_workspace(file_path)
-print(workspace_data)
+def read_json_with_comments():
+    with open("../vscode.code-workspace", 'r', encoding="utf-8") as file:
+        json_with_comments = file.read()
+        json_data = json5.loads(json_with_comments)
+    return json_data
+
+
+content = read_json_with_comments()
+print(content)
+
+with open("../.vscode/aaaaaa.json", "w") as json_file:
+    json.dump(content, json_file, indent=4)
