@@ -82,6 +82,9 @@
     // hiển thị
     // hiển thị
     // hiển thị
+    // "latex-workshop.synctex.afterBuild.enabled": true,
+    // "latex-workshop.view.outline.sync.viewer": true,
+    // "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click"
     // hiển thị
     // hiển thị
     // hiển thị
@@ -90,39 +93,10 @@
     // hiển thị
     // hiển thị
     // hiển thị
-    // "latex-workshop.synctex.afterBuild.enabled": false,
     "workbench.editorAssociations": {
       "*.pdf": "latex-workshop-pdf-hook"
     },
     "latex-workshop.latex.autoClean.run": "onSucceeded",
-    "latex-workshop.latex.clean.method": "glob",
-    "latex-workshop.latex.clean.fileTypes": [
-      "%DOCFILE%.aux",
-      "%DOCFILE%.bbl",
-      "%DOCFILE%.blg",
-      "%DOCFILE%.idx",
-      "%DOCFILE%.ind",
-      "%DOCFILE%.lof",
-      "%DOCFILE%.lot",
-      "%DOCFILE%.out",
-      "%DOCFILE%.toc",
-      "%DOCFILE%.acn",
-      "%DOCFILE%.acr",
-      "%DOCFILE%.alg",
-      "%DOCFILE%.glg",
-      "%DOCFILE%.glo",
-      "%DOCFILE%.gls",
-      "%DOCFILE%.fls",
-      "%DOCFILE%.log",
-      "%DOCFILE%.fdb_latexmk",
-      "%DOCFILE%.snm",
-      "%DOCFILE%.synctex(busy)",
-      "%DOCFILE%.synctex.gz(busy)",
-      "%DOCFILE%.nav",
-      "%DOCFILE%.vrb",
-      "*/*.nav",
-      "%DOCFILE%.synctex.gz"
-    ],
 
     "code-runner.executorMap": {
       // "bat": " cd $dir && $fileName",
@@ -146,7 +120,7 @@
       // "markdown": " cd $dir && if [ $fileName = README.md ]; then ( cd workspace/others/push && python push.py ); else ( echo NO PUSH GIT); fi;"
       // "markdown": " cd $dir && if $fileName == README.md ( cd workspace/others/push && python push.py) else (echo NO PUSH GIT) "
       // "markdown": " if [ $fileName = README.md ]; then ( cd others/push && python push.py ); else ( echo NO PUSH GIT); fi;",
-    }
+    },
   },
   "extensions": {
     "recommendations": []
