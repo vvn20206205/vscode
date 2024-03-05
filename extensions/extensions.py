@@ -4,6 +4,7 @@ command = "code --list-extensions > extensions.txt"
 
 subprocess.run(command, shell=True, check=True)
 
+# 
 # "formulahendry.auto-rename-tag"
 
 # "dracula-theme.theme-dracula"
