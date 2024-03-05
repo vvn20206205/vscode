@@ -1,6 +1,8 @@
-#!/bin/bash
+import subprocess
 
-code --list-extensions > extensions/extensions.txt
+command = "code --list-extensions > extensions.txt"
+
+subprocess.run(command, shell=True, check=True)
 
 # "formulahendry.auto-rename-tag"
 
