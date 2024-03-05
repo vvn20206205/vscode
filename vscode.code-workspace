@@ -48,18 +48,18 @@
     "[python]": {
       "editor.defaultFormatter": "ms-python.autopep8"
     },
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+    // "[json]": {
+    //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    // "[html]": {
+    //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    // "[javascript]": {
+    //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    // "[typescript]": {
+    //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
     //! Có thể thay đổi ít
     //! Có thể thay đổi ít
     //! Có thể thay đổi ít
