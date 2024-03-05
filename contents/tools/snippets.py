@@ -5,8 +5,8 @@ import shutil
 def get_snippets_path():
     if os.name == 'nt':
         return os.path.expanduser('~/AppData/Roaming/Code/User/snippets')
-    else:
-        return os.path.expanduser('~/.config/Code/User/snippets')
+    # else:
+    #     return os.path.expanduser('~/.config/Code/User/snippets')
 
 
 source_folder = "../snippets"

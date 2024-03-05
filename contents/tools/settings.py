@@ -1,6 +1,7 @@
+import os
+import json
 # pip install json5
 import json5
-import json
 
 
 def read_json_with_comments():
@@ -10,9 +11,16 @@ def read_json_with_comments():
     return json_data
 
 
+def get_settings_path():
+    if os.name == 'nt':
+        return os.path.expanduser('~/AppData/Roaming/Code/User/settings.json')
+    # else:
+    #     return os.path.expanduser('~/.config/Code/User/settings.json')
+
+
 content = read_json_with_comments()
+settings = get_settings_path()
 
 
-with open("../.vscode/aaaaaa.json", "w") as json_file:
-    # with open("../.vscode/aaaaaa.json", "w") as json_file:
+with open(settings, "w") as json_file:
     json.dump(content["settings"], json_file, indent=4)
