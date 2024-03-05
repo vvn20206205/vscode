@@ -65,7 +65,7 @@
     //! Có thể thay đổi nhiều
     //! Có thể thay đổi nhiều
     // "http.proxy":"http://localhost:10809",
-    //  
+    //
     "latex-workshop.latex.autoBuild.run": "onFileChange",
     // "latex-workshop.latex.autoBuild.run": "never",
     //
@@ -96,30 +96,37 @@
     },
     "latex-workshop.latex.autoClean.run": "onSucceeded",
     "latex-workshop.latex.clean.fileTypes": [
-      "*.aux",
-      "*.bbl",
-      "*.blg",
-      "*.idx",
-      "*.ind",
-      "*.lof",
-      "*.lot",
-      "*.out",
-      "*.toc",
-      "*.acn",
-      "*.acr",
-      "*.alg",
-      "*.glg",
-      "*.glo",
-      "*.gls",
-      "*.fls",
-      "*.fdb_latexmk",
-      "*.synctex.gz"
-  ],
-  
+      "%DOCFILE%.aux",
+      "%DOCFILE%.bbl",
+      "%DOCFILE%.blg",
+      "%DOCFILE%.idx",
+      "%DOCFILE%.ind",
+      "%DOCFILE%.lof",
+      "%DOCFILE%.lot",
+      "%DOCFILE%.out",
+      "%DOCFILE%.toc",
+      "%DOCFILE%.acn",
+      "%DOCFILE%.acr",
+      "%DOCFILE%.alg",
+      "%DOCFILE%.glg",
+      "%DOCFILE%.glo",
+      "%DOCFILE%.gls",
+      "%DOCFILE%.fls",
+      "%DOCFILE%.log",
+      "%DOCFILE%.fdb_latexmk",
+      "%DOCFILE%.snm",
+      "%DOCFILE%.synctex(busy)",
+      "%DOCFILE%.synctex.gz(busy)",
+      "%DOCFILE%.nav",
+      "%DOCFILE%.vrb",
+      "*/*.nav",
+      "%DOCFILE%.synctex.gz"
+    ],
+
     "code-runner.executorMap": {
       // "bat": " cd $dir && $fileName",
       // "bat": " cd $dir && cmd $fileName",
-  
+
       // "shellscript": " cd $dir && bash $fileName"
       // "shellscript": " bash $fileName"
       "shellscript": " cd $dir && $fileName",
@@ -130,11 +137,11 @@
       // "typescript": " cd $dir && npm run format && npm run start:dev "
       // "typescript": " cd $dir && npm run format && NEST_DEBUG=true npm run start:dev "
       // "typescript": " cd $dir && npm run format && npm run test && npm run test:e2e ",
-  
+
       // "yaml": " cd $dir && if [ $fileName = skaffold.yaml ]; then ( skaffold dev ); else ( kubectl apply -f $fileName); fi;",
       // "yaml": " cd $dir && if $fileName == skaffold.yaml ( skaffold dev ) else ( kubectl apply -f $fileName) ",
       // "yaml": " if [ $fileName = skaffold.yaml ]; then ( skaffold dev ); else ( kubectl apply -f $fileName); fi;",
-  
+
       // "markdown": " cd $dir && if [ $fileName = README.md ]; then ( cd workspace/others/push && python push.py ); else ( echo NO PUSH GIT); fi;"
       // "markdown": " cd $dir && if $fileName == README.md ( cd workspace/others/push && python push.py) else (echo NO PUSH GIT) "
       // "markdown": " if [ $fileName = README.md ]; then ( cd others/push && python push.py ); else ( echo NO PUSH GIT); fi;",
