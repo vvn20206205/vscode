@@ -27,7 +27,7 @@
     "explorer.confirmDelete": false,
     // Không hiện thông báo sao chép
     "explorer.confirmPasteNative": false,
-    // Không hiện thông báo di chuyển
+    // Không hiện thông báo di chuyển  tệp hoặc thư mục
     "explorer.confirmDragAndDrop": false,
     // Bật xóa file vào thùng rác
     "files.enableTrash": true,
@@ -66,7 +66,7 @@
     //! Có thể thay đổi ít
     // Nhóm các folder
     "explorer.compactFolders": false,
-    // Thư mục git
+    // Thư mục git  Parent
     "git.openRepositoryInParentFolders": "always",
     //! Có thể thay đổi nhiều
     //! Có thể thay đổi nhiều
@@ -103,22 +103,9 @@
     // xxxxxxxxxxxxxxxxxxxxxxxx
     "latex-workshop.synctex.afterBuild.enabled": true,
 
-    // // Hiển thị các thư mục
-    // "explorer.compactFolders": false,
-    // // Sao chép nội dung terminal
-    // "terminal.integrated.copyOnSelection": true,
-    // // Bật xóa file vào thùng rác
-    // "files.enableTrash": true,
-    // // Không hiển thị xác nhận xóa
-    // "explorer.confirmDelete": false,
     // // Phóng to hoặc thu nhỏ giao diện
     // "window.zoomLevel": 1,
-    // // Tắt hộp thoại xác nhận kéo và thả tệp hoặc thư mục
-    // "explorer.confirmDragAndDrop": false,
-    // //
-    // "git.enableSmartCommit": true,
-    // "git.confirmSync": false,
-    // "git.openRepositoryInParentFolders": "always",
+
 
     // "javascript.updateImportsOnFileMove.enabled": "always",
     // "typescript.updateImportsOnFileMove.enabled": "always"
