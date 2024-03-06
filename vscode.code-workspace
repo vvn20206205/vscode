@@ -9,8 +9,6 @@
   ],
   "settings": {
     // "diffEditor.ignoreTrimWhitespace": false,
-    
-
 
     // Đổi chủ đề màu sắc sang Dracula
     // "workbench.colorTheme": "Dracula",
@@ -93,8 +91,6 @@
     "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
     "latex-workshop.synctex.afterBuild.enabled": true,
 
-
-
     // // Cho phép phóng to thu nhỏ
     // "editor.mouseWheelZoom": true,
     // // Hiển thị các thư mục
@@ -114,37 +110,22 @@
     // "git.confirmSync": false,
     // "git.openRepositoryInParentFolders": "always",
 
-
-
-
-
-
-
-
-
-
     // "javascript.updateImportsOnFileMove.enabled": "always",
     // "typescript.updateImportsOnFileMove.enabled": "always"
 
+    // Chọn chủ đề biểu tượng là "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    // Chọn gói biểu đồ hiện tại là "nest"
+    "material-icon-theme.activeIconPack": "nest",
+    //
+    "material-icon-theme.folders.color": "#ff79b4",
+    //
+    "material-icon-theme.files.associations": {
+      "README.md": "3d",
+      "*.md": "3d"
+    },
+    // folder
 
-
-
-
-    // "workbench.iconTheme": "material-icon-theme",
-    // // Chọn chủ đề biểu tượng là "material-icon-theme"
-    // "workbench.iconTheme": "material-icon-theme",
-    // // Chọn gói biểu đồ hiện tại là "nest"
-    // "material-icon-theme.activeIconPack": "nest"
-    // // Chọn chủ đề biểu tượng là "material-icon-theme"
-    // "workbench.iconTheme": "material-icon-theme",
-    // // Chọn gói biểu đồ hiện tại là "nest"
-    // "material-icon-theme.activeIconPack": "nest",
-    // "material-icon-theme.folders.color": "#ff79b4",
-    // "material-icon-theme.files.associations": {
-    // "*.validator.ts": "nest-decorator",
-    // "README.md": "3d",
-    // "*.md": "3d"
-    // },
     "cSpell.words": [
       "autopep",
       "biểu",
