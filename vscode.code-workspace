@@ -8,11 +8,11 @@
     }
   ],
   "settings": {
-    // "diffEditor.ignoreTrimWhitespace": false,
-
     //! Cố định
     //! Cố định
     //! Cố định
+    // 
+    "diffEditor.ignoreTrimWhitespace": false,
     // Tự động lưu file
     "files.autoSave": "afterDelay",
     // Dùng ctrl kéo cỡ chữ
@@ -119,13 +119,13 @@
     "material-icon-theme.activeIconPack": "nest",
     //
     "material-icon-theme.folders.color": "#ff79b4",
-    //
+    // folder
+    // 
+    // file...
     "material-icon-theme.files.associations": {
       "README.md": "3d",
       "*.md": "3d"
     },
-    // folder
-
     "cSpell.words": [
       "autopep",
       "biểu",
