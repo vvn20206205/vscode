@@ -1,6 +1,17 @@
 import json
 import subprocess
 
+#   "pkief.material-icon-theme",
+#   "formulahendry.code-runner",
+#   "dracula-theme.theme-dracula",
+#   "aaron-bond.better-comments",
+#   "christian-kohler.path-intellisense",
+#   "steoates.autoimport",
+#   "esbenp.prettier-vscode",
+#   "mechatroner.rainbow-csv",
+#   "hediet.vscode-drawio",
+#   "James-Yu.latex-workshop",
+
 command = "code --list-extensions"
 
 extensions = subprocess.run(
@@ -20,15 +31,6 @@ with open("../../.vscode/extensions.json", "w") as json_file:
     json.dump(content, json_file, indent=4)
 
 
-
-#@ "formulahendry.code-runner",
-#@ "dracula-theme.theme-dracula",
-#@ "aaron-bond.better-comments",
-#@ "pkief.material-icon-theme",
-#@ "christian-kohler.path-intellisense",
-#@ "steoates.autoimport",
-#@ "esbenp.prettier-vscode",
-#@ "mechatroner.rainbow-csv",
 #@ "mathiassoeholm.markdown-link-updater",
 
 #@ "almenon.arepl",
@@ -37,8 +39,6 @@ with open("../../.vscode/extensions.json", "w") as json_file:
 #@ "ms-python.autopep8",
 #@ "fedricknishant.turbo-python-print",
 
-#@ "hediet.vscode-drawio",
-#@ "James-Yu.latex-workshop",
 
 #@ "chakrounanas.turbo-console-log",
 #@ "mikestead.dotenv",

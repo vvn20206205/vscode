@@ -9,6 +9,11 @@
   ],
   "settings": {
     // "diffEditor.ignoreTrimWhitespace": false,
+    
+
+
+    // Đổi chủ đề màu sắc sang Dracula
+    // "workbench.colorTheme": "Dracula",
 
     //! Cố định
     //! Cố định
@@ -23,7 +28,7 @@
     "git.confirmSync": false,
     // Không hiện thông báo paste nhiều dòng terminal
     "terminal.integrated.enableMultiLinePasteWarning": "never",
-    // Không hiện thông báo xóa
+    // Không hiện thông báo  xác nhận xóa
     "explorer.confirmDelete": false,
     // Không hiện thông báo sao chép
     "explorer.confirmPasteNative": false,
@@ -66,7 +71,6 @@
     //! Có thể thay đổi ít
     // Nhóm các folder
     "explorer.compactFolders": false,
-    // "workbench.iconTheme": "material-icon-theme",
     // Thư mục git
     "git.openRepositoryInParentFolders": "always",
     //! Có thể thay đổi nhiều
@@ -89,14 +93,7 @@
     "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
     "latex-workshop.synctex.afterBuild.enabled": true,
 
-    // // Không hiển thị xác nhận xóa
-    // "explorer.confirmDelete": false,
-    // // Đổi chủ đề màu sắc sang Dracula
-    // "workbench.colorTheme": "Dracula",
-    // // Chọn chủ đề biểu tượng là "material-icon-theme"
-    // "workbench.iconTheme": "material-icon-theme",
-    // // Chọn gói biểu đồ hiện tại là "nest"
-    // "material-icon-theme.activeIconPack": "nest"
+
 
     // // Cho phép phóng to thu nhỏ
     // "editor.mouseWheelZoom": true,
@@ -116,9 +113,28 @@
     // "git.enableSmartCommit": true,
     // "git.confirmSync": false,
     // "git.openRepositoryInParentFolders": "always",
-    // // Đổi chủ đề màu sắc sang Dracula
-    // "workbench.colorTheme": "Dracula",
 
+
+
+
+
+
+
+
+
+
+    // "javascript.updateImportsOnFileMove.enabled": "always",
+    // "typescript.updateImportsOnFileMove.enabled": "always"
+
+
+
+
+
+    // "workbench.iconTheme": "material-icon-theme",
+    // // Chọn chủ đề biểu tượng là "material-icon-theme"
+    // "workbench.iconTheme": "material-icon-theme",
+    // // Chọn gói biểu đồ hiện tại là "nest"
+    // "material-icon-theme.activeIconPack": "nest"
     // // Chọn chủ đề biểu tượng là "material-icon-theme"
     // "workbench.iconTheme": "material-icon-theme",
     // // Chọn gói biểu đồ hiện tại là "nest"
@@ -129,9 +145,6 @@
     // "README.md": "3d",
     // "*.md": "3d"
     // },
-
-    // "javascript.updateImportsOnFileMove.enabled": "always",
-    // "typescript.updateImportsOnFileMove.enabled": "always"
     "cSpell.words": [
       "autopep",
       "biểu",
