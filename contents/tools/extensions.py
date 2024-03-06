@@ -1,16 +1,6 @@
 import json
 import subprocess
 
-#   "pkief.material-icon-theme",
-#   "formulahendry.code-runner",
-#   "dracula-theme.theme-dracula",
-#   "aaron-bond.better-comments",
-#   "christian-kohler.path-intellisense",
-#   "steoates.autoimport",
-#   "esbenp.prettier-vscode",
-#   "mechatroner.rainbow-csv",
-#   "hediet.vscode-drawio",
-#   "James-Yu.latex-workshop",
 
 command = "code --list-extensions"
 
