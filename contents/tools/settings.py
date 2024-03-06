@@ -22,5 +22,5 @@ content = read_json_with_comments()
 settings = get_settings_path()
 
 
-with open(settings, "w") as json_file:
+with open(settings, "w", encoding="utf-8") as json_file:
     json.dump(content["settings"], json_file, indent=4)
