@@ -23,8 +23,14 @@
     "git.confirmSync": false,
     // Không hiện thông báo paste nhiều dòng terminal
     "terminal.integrated.enableMultiLinePasteWarning": "never",
+
+
+
     // Không hiện thông báo xóa
     "explorer.confirmDelete": false,
+
+
+
     // Không hiện thông báo sao chép
     "explorer.confirmPasteNative": false,
     // Không hiện thông báo di chuyển
@@ -40,7 +46,7 @@
     "terminal.integrated.copyOnSelection": true,
 
 
-    
+
     // Chạy mã trong terminal
     "code-runner.runInTerminal": true,
     // Đường dẫn là "/"
