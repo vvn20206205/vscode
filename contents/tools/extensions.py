@@ -21,7 +21,6 @@ with open("../../.vscode/extensions.json", "w") as json_file:
     json.dump(content, json_file, indent=4)
 
 
-#@ "mathiassoeholm.markdown-link-updater",
 
 #@ "almenon.arepl",
 #@ "ms-python.python",
