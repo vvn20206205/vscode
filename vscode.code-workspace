@@ -12,6 +12,8 @@
     //! Cố định
     //! Cố định
     // xxxxxxxxx
+    "security.workspace.trust.untrustedFiles": "open",
+    // xxxxxxxxx
     "diffEditor.ignoreTrimWhitespace": false,
     // Tự động lưu file
     "files.autoSave": "afterDelay",
