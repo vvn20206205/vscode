@@ -76,6 +76,7 @@
     //
     // xxxxxxxxxxxxxxxxxxxxxxxx
     // "http.proxy":"http://localhost:10809",
+    // "http.proxy":"http://localhost:2802",
     //
     // xxxxxxxxxxxxxxxxxxxxxxxx
     // "cSpell.enabled": true,
