@@ -21,6 +21,8 @@
     "editor.mouseWheelZoom": true,
     // Không hiện thông báo commit git
     "git.enableSmartCommit": true,
+    // xxxxxxxxx
+    "git.autofetch": true,
     // Không hiện thông báo push git
     "git.confirmSync": false,
     // Không hiện thông báo paste nhiều dòng terminal
@@ -54,6 +56,9 @@
     "[json]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[dockercompose]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     // "[html]": {
     //   "editor.defaultFormatter": "esbenp.prettier-vscode"
     // },
@@ -67,8 +72,10 @@
     //! Có thể thay đổi ít
     //! Có thể thay đổi ít
     // Nhóm các folder
+    //! thay đổi khi gặp java
     "explorer.compactFolders": false,
     // Thư mục git  Parent
+    //! thay đổi khi không cần xem git khác
     "git.openRepositoryInParentFolders": "always",
     //! Có thể thay đổi nhiều
     //! Có thể thay đổi nhiều
@@ -79,12 +86,14 @@
     // "http.proxy":"http://localhost:2802",
     //
     // xxxxxxxxxxxxxxxxxxxxxxxx
+    //! thay đổi khi cần kiểm tra chính tả
     // "cSpell.enabled": true,
     "cSpell.enabled": false,
     //
     // xxxxxxxxxxxxxxxxxxxxxxxx
-    "latex-workshop.latex.autoBuild.run": "onFileChange",
-    // "latex-workshop.latex.autoBuild.run": "never",
+    // "latex-workshop.latex.autoBuild.run": "onFileChange",
+    //! thay đổi khi cần tự động latex
+    "latex-workshop.latex.autoBuild.run": "never",
     //
     // xxxxxxxxxxxxxxxxxxxxxxxx
     "workbench.editorAssociations": {
@@ -108,7 +117,6 @@
 
     // // Phóng to hoặc thu nhỏ giao diện
     // "window.zoomLevel": 1,
-
 
     // "javascript.updateImportsOnFileMove.enabled": "always",
     // "typescript.updateImportsOnFileMove.enabled": "always"
