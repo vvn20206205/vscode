@@ -1,5 +1,14 @@
 import os
-import shutil
+import json
+# pip install json5
+import json5
+
+
+def read_json_with_comments():
+    with open("../../vscode.code-workspace", 'r', encoding="utf-8") as file:
+        json_with_comments = file.read()
+        json_data = json5.loads(json_with_comments)
+    return json_data
 
 
 def get_settings_path():
@@ -9,8 +18,9 @@ def get_settings_path():
     #     return os.path.expanduser('~/.config/Code/User/settings.json')
 
 
-source_path = "../../.vscode/settings.json"
-settings_path = get_settings_path()
+content = read_json_with_comments()
+settings = get_settings_path()
 
 
-shutil.copy2(source_path,    settings_path)
+with open(settings, "w", encoding="utf-8") as json_file:
+    json.dump(content["settings"], json_file, indent=4)
