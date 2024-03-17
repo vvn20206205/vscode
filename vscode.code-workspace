@@ -80,21 +80,17 @@
     //! Có thể thay đổi nhiều
     //! Có thể thay đổi nhiều
     //! Có thể thay đổi nhiều
-    //
     // xxxxxxxxxxxxxxxxxxxxxxxx
     // "http.proxy":"http://localhost:10809",
     // "http.proxy":"http://localhost:2802",
-    //
     // xxxxxxxxxxxxxxxxxxxxxxxx
     //! thay đổi khi cần kiểm tra chính tả
     // "cSpell.enabled": true,
     "cSpell.enabled": false,
-    //
     // xxxxxxxxxxxxxxxxxxxxxxxx
     // "latex-workshop.latex.autoBuild.run": "onFileChange",
     //! thay đổi khi cần tự động latex
     "latex-workshop.latex.autoBuild.run": "never",
-    //
     // xxxxxxxxxxxxxxxxxxxxxxxx
     "workbench.editorAssociations": {
       "*.drawio.png": "hediet.vscode-drawio",
@@ -234,8 +230,8 @@
       "shellscript": " cd $dir && $fileName",
       "python": " cd $dir && python $fileName",
       // "python": " cd $dir && python3 $fileName",
-      "javascript": " cd $dir && node $fileName",
-      "typescript": " cd $dir && npm run format && exit 0"
+      // "javascript": " cd $dir && node $fileName",
+      // "typescript": " cd $dir && npm run format && exit 0"
       // "typescript": " cd $dir && npm run format && npm run start:dev "
       // "typescript": " cd $dir && npm run format && NEST_DEBUG=true npm run start:dev "
       // "typescript": " cd $dir && npm run format && npm run test && npm run test:e2e ",
