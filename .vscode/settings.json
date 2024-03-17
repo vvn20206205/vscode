@@ -1,0 +1,263 @@
+// {
+//   "folders": [
+//     {
+//       "path": "."
+//     },
+//     {
+//       "path": "contents"
+//     }
+//   ],
+//   "settings": {
+//     //! Cố định
+//     //! Cố định
+//     //! Cố định
+//     // xxxxxxxxx
+//     "security.workspace.trust.untrustedFiles": "open",
+//     // xxxxxxxxx
+//     "diffEditor.ignoreTrimWhitespace": false,
+//     // Tự động lưu file
+//     "files.autoSave": "afterDelay",
+//     // Dùng ctrl  phóng to thu nhỏ  cỡ chữ
+//     "editor.mouseWheelZoom": true,
+//     // Không hiện thông báo commit git
+//     "git.enableSmartCommit": true,
+//     // xxxxxxxxx
+//     "git.autofetch": true,
+//     // Không hiện thông báo push git
+//     "git.confirmSync": false,
+//     // Không hiện thông báo paste nhiều dòng terminal
+//     "terminal.integrated.enableMultiLinePasteWarning": "never",
+//     // Không hiện thông báo  xác nhận xóa
+//     "explorer.confirmDelete": false,
+//     // Không hiện thông báo sao chép
+//     "explorer.confirmPasteNative": false,
+//     // Không hiện thông báo di chuyển  tệp hoặc thư mục
+//     "explorer.confirmDragAndDrop": false,
+//     // Bật xóa file vào thùng rác
+//     "files.enableTrash": true,
+//     // Sao chép nội dung terminal
+//     "terminal.integrated.copyOnSelection": true,
+//     // Chạy mã trong terminal
+//     "code-runner.runInTerminal": true,
+//     // Đường dẫn là "/"
+//     "code-runner.terminalRoot": "/",
+//     // Sử dụng mặc định cho terminal trên Windows
+//     "terminal.integrated.defaultProfile.windows": "Git Bash",
+//     // defaultFormatter
+//     "[jsonc]": {
+//       "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+//     "[markdown]": {
+//       "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+//     "[python]": {
+//       "editor.defaultFormatter": "ms-python.autopep8"
+//     },
+//     "[json]": {
+//       "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+//     "[dockercompose]": {
+//       "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+//     // "[html]": {
+//     //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     // },
+//     // "[javascript]": {
+//     //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     // },
+//     // "[typescript]": {
+//     //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     // },
+//     //! Có thể thay đổi ít
+//     //! Có thể thay đổi ít
+//     //! Có thể thay đổi ít
+//     // Nhóm các folder
+//     //! thay đổi khi gặp java
+//     "explorer.compactFolders": false,
+//     // Thư mục git  Parent
+//     //! thay đổi khi không cần xem git khác
+//     "git.openRepositoryInParentFolders": "always",
+//     //! Có thể thay đổi nhiều
+//     //! Có thể thay đổi nhiều
+//     //! Có thể thay đổi nhiều
+//     // xxxxxxxxxxxxxxxxxxxxxxxx
+//     // "http.proxy":"http://localhost:10809",
+//     // "http.proxy":"http://localhost:2802",
+//     // xxxxxxxxxxxxxxxxxxxxxxxx
+//     //! thay đổi khi cần kiểm tra chính tả
+//     // "cSpell.enabled": true,
+//     "cSpell.enabled": false,
+//     // xxxxxxxxxxxxxxxxxxxxxxxx
+//     // "latex-workshop.latex.autoBuild.run": "onFileChange",
+//     //! thay đổi khi cần tự động latex
+//     "latex-workshop.latex.autoBuild.run": "never",
+//     // xxxxxxxxxxxxxxxxxxxxxxxx
+//     "workbench.editorAssociations": {
+//       "*.drawio.png": "hediet.vscode-drawio",
+//       // "*.drawio.png": "hediet.vscode-drawio",
+//       // "*.drawio.png": "hediet.vscode-drawio",
+//       // "*.drawio.png": "hediet.vscode-drawio",
+//       // "*.drawio.png": "hediet.vscode-drawio",
+//       // "*.drawio.png": "hediet.vscode-drawio",
+//       "*.png": "imagePreview.previewEditor",
+//       "*.pdf": "latex-workshop-pdf-hook"
+//     },
+//     // xxxxxxxxxxxxxxxxxxxxxxxx
+//     "latex-workshop.message.error.show": false,
+//     // xxxxxxxxxxxxxxxxxxxxxxxx
+//     "latex-workshop.latex.autoClean.run": "onSucceeded",
+//     // xxxxxxxxxxxxxxxxxxxxxxxx
+//     "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+//     // xxxxxxxxxxxxxxxxxxxxxxxx
+//     "latex-workshop.synctex.afterBuild.enabled": true,
+
+//     // // Phóng to hoặc thu nhỏ giao diện
+//     // "window.zoomLevel": 1,
+
+//     // "javascript.updateImportsOnFileMove.enabled": "always",
+//     // "typescript.updateImportsOnFileMove.enabled": "always"
+
+//     // Đổi chủ đề màu sắc sang Dracula
+//     "workbench.colorTheme": "Dracula",
+//     // Chọn chủ đề biểu tượng là "material-icon-theme"
+//     "workbench.iconTheme": "material-icon-theme",
+//     // Chọn gói biểu đồ hiện tại là "nest"
+//     "material-icon-theme.activeIconPack": "nest",
+//     //
+//     // xxxxxxxxxxxxxxxxxxxxxxxx
+//     "material-icon-theme.folders.color": "#ff79b4",
+//     // folder
+//     //
+//     // file...
+//     "material-icon-theme.files.associations": {
+//       "README.md": "3d",
+//       "*.md": "3d"
+//     },
+//     // xxxxxxxxxxxxxxxxxxxxxxxx
+//     "cSpell.words": [
+//       "autopep",
+//       "biểu",
+//       "Chọn",
+//       "định",
+//       "dụng",
+//       "esbenp",
+//       "hiển",
+//       "Không",
+//       "nhận",
+//       "nhiều",
+//       "phép",
+//       "synctex",
+//       "thay",
+//       "thông",
+//       "thùng",
+//       "trên",
+//       "trong",
+//       "tượng"
+//     ],
+//     // xxxxxxxxxxxxxxxxxxxxxxxx
+//     "better-comments.tags": [
+//       // !
+//       {
+//         "tag": "!",
+//         "color": "#FF2D00",
+//         "strikethrough": false,
+//         "underline": false,
+//         "backgroundColor": "transparent",
+//         "bold": false,
+//         "italic": false
+//       },
+//       // //
+//       {
+//         "tag": "//",
+//         "color": "#FF8C00",
+//         // "color": "#474747",
+//         "strikethrough": true,
+//         "underline": false,
+//         "backgroundColor": "transparent",
+//         "bold": false,
+//         "italic": false
+//       },
+//       // #
+//       {
+//         "tag": "#",
+//         "color": "#FF8C00",
+//         // "color": "#474747",
+//         "strikethrough": true,
+//         "underline": false,
+//         "backgroundColor": "transparent",
+//         "bold": false,
+//         "italic": false
+//       },
+//       // %
+//       {
+//         "tag": "%",
+//         "color": "#FF8C00",
+//         // "color": "#474747",
+//         "strikethrough": true,
+//         "underline": false,
+//         "backgroundColor": "transparent",
+//         "bold": false,
+//         "italic": false
+//       },
+//       // @
+//       {
+//         "tag": "@",
+//         "color": "#FF8C00",
+//         "strikethrough": false,
+//         "underline": false,
+//         "backgroundColor": "transparent",
+//         "bold": false,
+//         "italic": false
+//       },
+//       // =
+//       {
+//         "tag": "=",
+//         "color": "#FF8C00",
+//         "strikethrough": false,
+//         "underline": false,
+//         "backgroundColor": "transparent",
+//         "bold": false,
+//         "italic": false
+//       }
+//     ],
+//     // xxxxxxxxxxxxxxxxxxxxxxxx
+//     "code-runner.executorMap": {
+//       // "bat": " cd $dir && $fileName",
+//       // "bat": " cd $dir && cmd $fileName",
+
+//       // "shellscript": " cd $dir && bash $fileName"
+//       // "shellscript": " bash $fileName"
+//       "shellscript": " cd $dir && $fileName",
+//       "python": " cd $dir && python $fileName",
+//       // "python": " cd $dir && python3 $fileName",
+//       // "javascript": " cd $dir && node $fileName",
+//       // "typescript": " cd $dir && npm run format && exit 0"
+//       // "typescript": " cd $dir && npm run format && npm run start:dev "
+//       // "typescript": " cd $dir && npm run format && NEST_DEBUG=true npm run start:dev "
+//       // "typescript": " cd $dir && npm run format && npm run test && npm run test:e2e ",
+
+//       // "yaml": " cd $dir && if [ $fileName = skaffold.yaml ]; then ( skaffold dev ); else ( kubectl apply -f $fileName); fi;",
+//       // "yaml": " cd $dir && if $fileName == skaffold.yaml ( skaffold dev ) else ( kubectl apply -f $fileName) ",
+//       // "yaml": " if [ $fileName = skaffold.yaml ]; then ( skaffold dev ); else ( kubectl apply -f $fileName); fi;",
+
+//       // "markdown": " cd $dir && if [ $fileName = README.md ]; then ( cd workspace/others/push && python push.py ); else ( echo NO PUSH GIT); fi;"
+//       // "markdown": " cd $dir && if $fileName == README.md ( cd workspace/others/push && python push.py) else (echo NO PUSH GIT) "
+//       // "markdown": " if [ $fileName = README.md ]; then ( cd others/push && python push.py ); else ( echo NO PUSH GIT); fi;",
+//     }
+//   },
+//   "extensions": {
+//     "recommendations": []
+//   }
+// }
+// // // Tắt cửa sổ lỗi
+// // "latex-workshop.message.warning.show": false,
+// // "latex-workshop.message.error.show": false,
+// // // Xóa file
+// // "latex-workshop.latex.autoClean.run": "onSucceeded",
+// // // Hiện vị trí khi run
+// // "latex-workshop.synctex.afterBuild.enabled": true,
+// // // Vị trí file
+// // "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+// // // Tự động run
+// // "latex-workshop.latex.autoBuild.run": "never"
+// // // "latex-workshop.latex.autoBuild.run": "onFileChange",
