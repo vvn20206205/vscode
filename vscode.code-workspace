@@ -51,9 +51,9 @@
     "[python]": {
       "editor.defaultFormatter": "ms-python.autopep8"
     },
-    // "[json]": {
-    //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-    // },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     // "[html]": {
     //   "editor.defaultFormatter": "esbenp.prettier-vscode"
     // },

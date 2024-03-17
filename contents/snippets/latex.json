@@ -1,0 +1,18 @@
+{
+  "my_comment": {
+    "prefix": "my_comment",
+    "body": ["%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n\n"],
+    "description": "my_comment"
+  },
+  "my_picture": {
+    "prefix": "my_picture",
+    "body": [
+      "\\begin{figure}[H]",
+      "\\centering",
+      "\\includegraphics[scale = 0.15]{${1:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx}}",
+      "\\caption{${2:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx}}",
+      "\\end{figure}"
+    ],
+    "description": "my_picture"
+  }
+}

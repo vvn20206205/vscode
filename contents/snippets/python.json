@@ -1,9 +1,7 @@
 {
-	"my_print": {
-		"prefix": "my_print",
-		"body": [
-			"print(f\"🚀 {${nghia}}\")"
-		],
-		"description": "my_print"
-	}
+  "my_print": {
+    "prefix": "my_print",
+    "body": ["print(f\"🚀 {${nghia}}\")"],
+    "description": "my_print"
+  }
 }
