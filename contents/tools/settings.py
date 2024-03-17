@@ -19,6 +19,7 @@ def get_settings_path():
 
 
 content = read_json_with_comments()
+print(f"🚀 {content}")
 settings = get_settings_path()
 
 

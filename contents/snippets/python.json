@@ -2,7 +2,7 @@
 	"my_print": {
 		"prefix": "my_print",
 		"body": [
-			"print(\"🚀 Giá trị của ${nghia}:\", ${nghia})"
+			"print(f\"🚀 {${nghia}}\")"
 		],
 		"description": "my_print"
 	}
